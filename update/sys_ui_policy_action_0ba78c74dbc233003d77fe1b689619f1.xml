@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>short_description</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-12 09:24:19</sys_created_on>
+        <sys_id>0ba78c74dbc233003d77fe1b689619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>short_description</sys_name>
+        <sys_package display_value="sriindu it" source="x_366653_sriindu_i">4bdb715cdb4e33003d77fe1b68961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sriindu it">4bdb715cdb4e33003d77fe1b68961903</sys_scope>
+        <sys_update_name>sys_ui_policy_action_0ba78c74dbc233003d77fe1b689619f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-12 09:24:19</sys_updated_on>
+        <table>x_366653_sriindu_i_incident_log</table>
+        <ui_policy display_value="u should make mandatory">286744f0dbc233003d77fe1b68961933</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="sriindu sale lap">a572d7ecdb0233003d77fe1b68961902</sc_cat_item>
+        <sc_category display_value="sriindu hardware">54e1dfacdb0233003d77fe1b689619b6</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-12 05:34:14</sys_created_on>
+        <sys_id>f8935720db4233003d77fe1b68961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sriindu hardware.sriindu sale lap</sys_name>
+        <sys_package display_value="sriindu it" source="x_366653_sriindu_i">4bdb715cdb4e33003d77fe1b68961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sriindu it">4bdb715cdb4e33003d77fe1b68961903</sys_scope>
+        <sys_update_name>sc_cat_item_category_f8935720db4233003d77fe1b68961965</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-12 05:34:14</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

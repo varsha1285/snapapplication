@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="sriindu sale lap">3ac3d720db4233003d77fe1b68961992</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-12 08:11:29</sys_created_on>
+        <sys_id>949777a8db8233003d77fe1b68961980</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>software set.sriindu sale lap</sys_name>
+        <sys_package display_value="sriindu it" source="x_366653_sriindu_i">4bdb715cdb4e33003d77fe1b68961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sriindu it">4bdb715cdb4e33003d77fe1b68961903</sys_scope>
+        <sys_update_name>io_set_item_949777a8db8233003d77fe1b68961980</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-12 08:11:29</sys_updated_on>
+        <variable_set display_value="software set">3a657b68db8233003d77fe1b6896190d</variable_set>
+    </io_set_item>
+</record_update>

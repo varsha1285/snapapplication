@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="incident log" max_length="40" name="x_366653_sriindu_i_incident_log" sizeclass="3" type="collection">
+        <element choice="3" label="Network" max_length="100" name="network" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="email" value="email"/>
+                <element inactive="true" inactive_on_update="true" label="email" sequence="0" value="email"/>
+                <element inactive_on_update="false" label="phno" sequence="1" value="number"/>
+            </choice>
+        </element>
+        <element label="reference" max_length="32" name="reference" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="reqdate" max_length="100" name="reqdate" type="glide_date_time"/>
+        <element label="req date" max_length="100" name="req_date" type="glide_date_time"/>
+        <element label="retdate" max_length="100" name="retdate" type="glide_date_time"/>
+        <element label="ret date" max_length="100" name="ret_date" type="glide_date_time"/>
+        <element label="x" max_length="32" name="x" reference="sys_user" type="reference"/>
+        <element default="text default" label="xyz" max_length="60" name="xyz" type="string"/>
+    </element>
+</database>

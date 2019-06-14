@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_366653_sriindu_i_incident_log</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>incident log backup</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+ var InclogBkp=new GlideRecord('x_366653_sriindu_i_incident_log_backup');
+	InclogBkp.short_description=current.short_description;
+	InclogBkp.insert();
+	gs.addInfoMessage("record created and backup created successfully")
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 05:31:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1f36dc89db4e33003d77fe1b6896190a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>incident log backup</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="sriindu it" source="x_366653_sriindu_i">4bdb715cdb4e33003d77fe1b68961903</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sriindu it">4bdb715cdb4e33003d77fe1b68961903</sys_scope>
+        <sys_update_name>sys_script_1f36dc89db4e33003d77fe1b6896190a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-13 06:09:39</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=1f36dc89db4e33003d77fe1b6896190a"/>
+</record_update>

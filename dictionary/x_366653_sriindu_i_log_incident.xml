@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="log incident" max_length="40" name="x_366653_sriindu_i_log_incident" type="collection">
+        <element default="text default" label="sindu" max_length="70" name="sindu" type="string"/>
+    </element>
+</database>
